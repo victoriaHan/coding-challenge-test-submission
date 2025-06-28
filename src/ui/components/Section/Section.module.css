@@ -5,7 +5,7 @@
   color: var(--color-text);
   margin: 3rem auto;
   max-width: var(--width-content);
-  padding: 2rem 3rem;
+  padding: 0.5rem 1.5rem;
   width: 100%;
 }
 
@@ -13,4 +13,10 @@
   --color-background: #141925;
   --color-text: #fff;
   --color-text-light: #878b9a;
+}
+
+@media (min-width: 480px) {
+  .section {
+    padding: 2rem 3rem;
+  }
 }
